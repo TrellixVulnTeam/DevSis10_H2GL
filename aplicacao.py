@@ -17,15 +17,15 @@ def disc():
 def esc():
     return render_template("escola.html")
 
-@app.route('/lista')
+@app.route('/lista.html')
 def liscur():
     return render_template("listacurso.html")
 
-@app.route('/noticias')
+@app.route('/noticias.html')
 def noti():
     return render_template("noticias.html")
 
-@app.route('/tabelaprofessores')
+@app.route('/tabelaprofessores.html')
 def tabprof():
     return render_template("tabelaprofessores.html")
 
