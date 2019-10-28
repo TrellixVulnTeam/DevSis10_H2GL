@@ -1,19 +1,19 @@
 from flask import Flask, render_template
 app = Flask (__name__)
 
-@app.route('/home')
+@app.route('/index.html')
 def home():
     return render_template("index.html")
 
-@app.route('/detalhe')
+@app.route('/detalhe.html')
 def det():
     return render_template("detalhe.html")
 
-@app.route('/disciplina')
+@app.route('/disciplina.html')
 def disc():
     return render_template("disciplina.html")
 
-@app.route('/escola')
+@app.route('/escola.html')
 def esc():
     return render_template("escola.html")
 
