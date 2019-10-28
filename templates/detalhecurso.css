@@ -1,0 +1,43 @@
+body{ background: #A9A9A9
+}
+p{text-align: center
+}
+
+
+
+
+div{
+    float: left; 
+
+}
+
+a:hover{
+    color: blue;
+}
+
+button{
+    color: white;
+    border-style: double;
+    background-color: #4F4F4F;
+}
+    
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: #4F4F4F;
+    color: white;
+    height: 40px;
+    display: flex;
+   }
+   header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    background:  #4F4F4F;
+    height: 40px;
+   }
