@@ -17,7 +17,7 @@ def disc():
 def esc():
     return render_template("escola.html")
 
-@app.route('/lista.html')
+@app.route('/listacurso.html')
 def liscur():
     return render_template("listacurso.html")
 
